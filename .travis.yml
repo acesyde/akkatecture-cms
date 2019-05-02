@@ -1,7 +1,7 @@
 language: csharp
 solution: akkatecture-cms.sln
 mono: none
-dotnet: 2.2.101
+dotnet: 2.2.203
 
 script:
     - dotnet restore
