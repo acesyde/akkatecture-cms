@@ -1,3 +1,4 @@
+dist: xenial
 language: csharp
 solution: akkatecture-cms.sln
 mono: none
