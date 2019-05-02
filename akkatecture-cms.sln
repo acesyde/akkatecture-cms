@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.Solution Items", "00.Solution Items", "{D409CCE8-3D76-4717-9845-B86A46BBE871}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		.travis.yml = .travis.yml
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
@@ -14,15 +15,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.src", "01.src", "{2F7814
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.tests", "02.tests", "{76BA2C57-4AA9-42D1-8516-1F511F20F528}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.Domain", "src\Cms.Domain\Cms.Domain.csproj", "{7632EA29-2CE8-4F3A-A2A3-F4525E3CFC8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cms.Domain", "src\Cms.Domain\Cms.Domain.csproj", "{7632EA29-2CE8-4F3A-A2A3-F4525E3CFC8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.Infrastructure", "src\Cms.Infrastructure\Cms.Infrastructure.csproj", "{300A8852-B20C-4B67-A6BA-9C359442069D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cms.Infrastructure", "src\Cms.Infrastructure\Cms.Infrastructure.csproj", "{300A8852-B20C-4B67-A6BA-9C359442069D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.Services", "src\Cms.Services\Cms.Services.csproj", "{0170F1F0-FED1-4561-AD68-C6BCBD54700F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cms.Services", "src\Cms.Services\Cms.Services.csproj", "{0170F1F0-FED1-4561-AD68-C6BCBD54700F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.Api", "src\Cms.Api\Cms.Api.csproj", "{A6113DFE-93F7-4F77-B0E9-E1F3DABD877B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cms.Api", "src\Cms.Api\Cms.Api.csproj", "{A6113DFE-93F7-4F77-B0E9-E1F3DABD877B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms.Services.MongoDb", "src\Cms.Services.MongoDb\Cms.Services.MongoDb.csproj", "{94821514-8E9E-41D1-A4C8-78E1F3D04974}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cms.Services.MongoDb", "src\Cms.Services.MongoDb\Cms.Services.MongoDb.csproj", "{94821514-8E9E-41D1-A4C8-78E1F3D04974}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

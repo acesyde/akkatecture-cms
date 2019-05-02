@@ -1,0 +1,8 @@
+language: csharp
+solution: akkatecture-cms.sln
+mono: none
+dotnet: 2.2.101
+
+script:
+    - dotnet restore
+    - dotnet build
